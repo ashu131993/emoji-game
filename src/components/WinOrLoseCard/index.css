@@ -1,0 +1,54 @@
+/* Write your code here. */
+.result-display-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.result-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-type {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.score-text {
+  margin-bottom: 5px;
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.score {
+  margin-top: 0;
+  font-size: 45px;
+  color: #6a59ff;
+}
+
+.reset-button {
+  cursor: pointer;
+  outline: none;
+  color: #3d3d3d;
+  height: 60px;
+  width: 170px;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: #ffce27;
+}
+
+.win-lose-logo {
+  height: 500px;
+  width: auto;
+  margin-left: 100px;
+}
